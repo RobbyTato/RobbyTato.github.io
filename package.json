@@ -1,0 +1,23 @@
+{
+  "name": "github-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobbyTato/RobbyTato.github.io.git"
+  },
+  "author": "RobbyTato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobbyTato/RobbyTato.github.io/issues"
+  },
+  "homepage": "https://github.com/RobbyTato/RobbyTato.github.io#readme",
+  "dependencies": {
+    "mongodb": "^3.6.3",
+    "simple-crypto-js": "^3.0.0"
+  }
+}
