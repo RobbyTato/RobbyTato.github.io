@@ -1,5 +1,5 @@
+import MongoClient from "mongodb";
 $.getJSON('https://ipapi.co/json/', function(data) {
-  var MongoClient = require('mongodb').MongoClient;
   var url = "mongodb+srv://dbMalBot:emil1999@websitedatabase.0xffv.mongodb.net/IP?retryWrites=true&w=majority";
   MongoClient.connect(url, function(err, db) {
     if (err) throw err;
