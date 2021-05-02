@@ -1,79 +1,60 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>RobbyTato</title>
     <meta charset="utf-8" />
-    <title>RobbyTato's personal site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="scripts/test.js"></script>
+    <link rel="icon" href="favicon.ico?v=2" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table style="border-spacing: 10px">
-      <tr>
-        <td>
-          <img
-            src="https://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/mammals/d/domestic-dog_thumb.jpg"
-            alt="Picture of robbytato"
-            width="200"
-          />
-        </td>
-        <td>
-          <h1>RobbyTato</h1>
-          <p><em>That guy who started programming cause he was bored</em></p>
-          <p>
-            I started learning at Sep 2020. I know python and started learning
-            web design
-          </p>
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <h3>Books and Teaching</h3>
-    <ul>
-      <li>Some stuff here</li>
-      <li>Some more stuff here</li>
-    </ul>
-    <hr />
-    <h3>Hobbies</h3>
-    <ol>
-      <li>Programming</li>
-      <li>Gaming</li>
-    </ol>
-    <hr />
-    <h3>Skills</h3>
-    <table style="border-spacing: 10px">
-      <tbody>
-        <tr>
-          <td>
-            <table>
-              <tr>
-                <td>Python</td>
-                <td>⭐⭐⭐</td>
-              </tr>
-              <tr>
-                <td>HTML</td>
-                <td>⭐⭐</td>
-              </tr>
-            </table>
-          </td>
-          <td>
-            <table>
-              <tr>
-                <td>CSS</td>
-                <td>⭐</td>
-              </tr>
-              <tr>
-                <td>Javascript</td>
-                <td>⭐</td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <a href="hobbies.html">Hobbies page</a>
-    <a href="contact-me.html">Contact me</a>
-    <hr />
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud" />
+      <h1>RobbyTato</h1>
+      <h2>A <span class="bud">bud</span>ding web designer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud" />
+      <img src="images/mountain.png" alt="mountain" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="face-picture" src="https://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/mammals/d/domestic-dog_thumb.jpg" alt="Picture of me">
+        <h2>Hello.</h2>
+        <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="python-logo" src="https://www.flaticon.com/svg/static/icons/svg/1822/1822899.svg" alt="Python logo">
+          <h3>Python</h3>
+          <p>Been studying the python language for around 100 days. I don't have that much knowledge in it, but am confident enough to perform slightly complex tasks such as using APIs and modules to create a discord bot.</p>
+        </div>
+        <div class="skill-row">
+          <img class="html-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML logo">
+          <h3>Web Development</h3>
+          <p>Recently dipped my toes into the world of web dev. Enjoying my experience so far, this website should be one of the first proper websites I have made in my life.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>You can find me on my socials at discord!</h3>
+        <p>I am a very chill guy and a great person to get along with. Please do come talk to me :D</p>
+        <a class="contact-me-button" href="mailto:placeholderlink@donotactuallyemail.com">CONTACT ME</a>
+      </div>
+    </div>
+    
+    
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="footer-cc">© 2018 RobbyTato # 1923</p>
+    </div>
   </body>
 </html>
